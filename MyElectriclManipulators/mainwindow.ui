@@ -1,0 +1,1500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>850</width>
+    <height>393</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>2560</width>
+    <height>1600</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout_4">
+    <item>
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="currentIndex">
+       <number>1</number>
+      </property>
+      <widget class="QWidget" name="tab">
+       <attribute name="title">
+        <string> 前期设计</string>
+       </attribute>
+       <widget class="QWidget" name="verticalLayoutWidget">
+        <property name="geometry">
+         <rect>
+          <x>9</x>
+          <y>9</y>
+          <width>82</width>
+          <height>160</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item>
+          <widget class="QLabel" name="label">
+           <property name="text">
+            <string>电缸选择</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="verticalSpacer">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>40</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QComboBox" name="drvID">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+           <property name="toolTip">
+            <string/>
+           </property>
+           <property name="autoFillBackground">
+            <bool>false</bool>
+           </property>
+           <property name="editable">
+            <bool>false</bool>
+           </property>
+           <property name="duplicatesEnabled">
+            <bool>false</bool>
+           </property>
+           <property name="frame">
+            <bool>true</bool>
+           </property>
+           <item>
+            <property name="text">
+             <string>3</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>1</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>2</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>4</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>5</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>6</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item>
+          <spacer name="verticalSpacer_2">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>40</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QPushButton" name="Confirm">
+           <property name="text">
+            <string>确认</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QPushButton" name="enable_4">
+        <property name="geometry">
+         <rect>
+          <x>130</x>
+          <y>200</y>
+          <width>38</width>
+          <height>26</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    color: rgb(0, 0, 0);
+    border: 2px solid #333;
+    border-radius: 35px;
+    border-style: outset;
+    background:rgb(255, 255, 255) ;
+    padding: 5px;
+    }</string>
+        </property>
+        <property name="text">
+         <string>获取</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="enable">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>200</y>
+          <width>38</width>
+          <height>26</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    color: rgb(0, 0, 0);
+    border: 2px solid #333;
+    border-radius: 35px;
+    border-style: outset;
+    background:rgb(255, 255, 255) ;
+    padding: 5px;
+    }</string>
+        </property>
+        <property name="text">
+         <string>使能</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="enable_2">
+        <property name="geometry">
+         <rect>
+          <x>340</x>
+          <y>200</y>
+          <width>38</width>
+          <height>26</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    color: rgb(0, 0, 0);
+    border: 2px solid #333;
+    border-radius: 35px;
+    border-style: outset;
+    background:rgb(255, 255, 255) ;
+    padding: 5px;
+    }</string>
+        </property>
+        <property name="text">
+         <string>计算</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="enable_3">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>200</y>
+          <width>38</width>
+          <height>26</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    color: rgb(0, 0, 0);
+    border: 2px solid #333;
+    border-radius: 35px;
+    border-style: outset;
+    background:rgb(255, 255, 255) ;
+    padding: 5px;
+    }</string>
+        </property>
+        <property name="text">
+         <string>启动</string>
+        </property>
+       </widget>
+       <widget class="QWidget" name="horizontalLayoutWidget_2">
+        <property name="geometry">
+         <rect>
+          <x>250</x>
+          <y>10</y>
+          <width>78</width>
+          <height>222</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_6">
+           <item alignment="Qt::AlignHCenter">
+            <widget class="QLabel" name="label_6">
+             <property name="text">
+              <string>坐标</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="verticalSpacer_27">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>40</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item alignment="Qt::AlignHCenter">
+            <widget class="QLabel" name="label_7">
+             <property name="text">
+              <string>X</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="verticalSpacer_28">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>40</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item alignment="Qt::AlignHCenter">
+            <widget class="QLabel" name="label_8">
+             <property name="text">
+              <string>Y</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="verticalSpacer_29">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>40</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item alignment="Qt::AlignHCenter">
+            <widget class="QLabel" name="label_9">
+             <property name="text">
+              <string>Z</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="verticalSpacer_30">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>40</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item alignment="Qt::AlignHCenter">
+            <widget class="QLabel" name="label_10">
+             <property name="text">
+              <string>R</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="verticalSpacer_31">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>40</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item alignment="Qt::AlignHCenter">
+            <widget class="QLabel" name="label_12">
+             <property name="text">
+              <string>P</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="verticalSpacer_32">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>40</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item alignment="Qt::AlignHCenter">
+            <widget class="QLabel" name="label_11">
+             <property name="text">
+              <string>Y</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_3">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_5">
+           <item>
+            <widget class="QLabel" name="label_5">
+             <property name="text">
+              <string>坐标值</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="verticalSpacer_21">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>40</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="X"/>
+           </item>
+           <item>
+            <spacer name="verticalSpacer_22">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>40</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="motorID_20"/>
+           </item>
+           <item>
+            <spacer name="verticalSpacer_23">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>40</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="motorID_21"/>
+           </item>
+           <item>
+            <spacer name="verticalSpacer_24">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>40</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="motorID_22"/>
+           </item>
+           <item>
+            <spacer name="verticalSpacer_25">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>40</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="motorID_23"/>
+           </item>
+           <item>
+            <spacer name="verticalSpacer_26">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>40</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="motorID_24"/>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="horizontalLayoutWidget">
+        <property name="geometry">
+         <rect>
+          <x>390</x>
+          <y>9</y>
+          <width>152</width>
+          <height>222</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_7">
+           <item>
+            <widget class="QLabel" name="label_13">
+             <property name="text">
+              <string>关节序号</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="verticalSpacer_33">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>40</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item alignment="Qt::AlignHCenter">
+            <widget class="QLabel" name="label_14">
+             <property name="text">
+              <string>1</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="verticalSpacer_34">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>40</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item alignment="Qt::AlignHCenter">
+            <widget class="QLabel" name="label_15">
+             <property name="text">
+              <string>2</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="verticalSpacer_35">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>40</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item alignment="Qt::AlignHCenter">
+            <widget class="QLabel" name="label_16">
+             <property name="text">
+              <string>3</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="verticalSpacer_36">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>40</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item alignment="Qt::AlignHCenter">
+            <widget class="QLabel" name="label_17">
+             <property name="text">
+              <string>4</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="verticalSpacer_37">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>40</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item alignment="Qt::AlignHCenter">
+            <widget class="QLabel" name="label_18">
+             <property name="text">
+              <string>5</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="verticalSpacer_38">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>40</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+            <widget class="QLabel" name="label_19">
+             <property name="text">
+              <string>6</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_3">
+           <item>
+            <widget class="QLabel" name="label_3">
+             <property name="text">
+              <string>计算值</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="verticalSpacer_9">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>40</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="motorID_7"/>
+           </item>
+           <item>
+            <spacer name="verticalSpacer_10">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>40</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="motorID_8"/>
+           </item>
+           <item>
+            <spacer name="verticalSpacer_11">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>40</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="motorID_9"/>
+           </item>
+           <item>
+            <spacer name="verticalSpacer_12">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>40</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="motorID_10"/>
+           </item>
+           <item>
+            <spacer name="verticalSpacer_13">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>40</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="motorID_11"/>
+           </item>
+           <item>
+            <spacer name="verticalSpacer_14">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>40</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="motorID_12"/>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_2">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_4">
+           <item>
+            <widget class="QLabel" name="label_4">
+             <property name="text">
+              <string>反馈值</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="verticalSpacer_15">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>40</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="motorID_13"/>
+           </item>
+           <item>
+            <spacer name="verticalSpacer_16">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>40</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="motorID_14"/>
+           </item>
+           <item>
+            <spacer name="verticalSpacer_17">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>40</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="motorID_15"/>
+           </item>
+           <item>
+            <spacer name="verticalSpacer_18">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>40</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="motorID_16"/>
+           </item>
+           <item>
+            <spacer name="verticalSpacer_19">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>40</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="motorID_17"/>
+           </item>
+           <item>
+            <spacer name="verticalSpacer_20">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>40</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="motorID_18"/>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_2">
+       <attribute name="title">
+        <string>当前设计</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_6">
+        <item row="0" column="0">
+         <widget class="QGroupBox" name="groupBox">
+          <property name="title">
+           <string> 单关节测试</string>
+          </property>
+          <layout class="QGridLayout" name="gridLayout">
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_2">
+             <property name="text">
+              <string>关节选择</string>
+             </property>
+             <property name="buddy">
+              <cstring>comboBox</cstring>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QComboBox" name="comboBox">
+             <item>
+              <property name="text">
+               <string>底座</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>大臂</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>二臂</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>摇杆</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>侧摆</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>末端回转</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="0" column="2">
+            <widget class="QPushButton" name="pushButton">
+             <property name="text">
+              <string>开始运动</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QLabel" name="label_20">
+             <property name="text">
+              <string>  位移量</string>
+             </property>
+             <property name="buddy">
+              <cstring>doubleSpinBox</cstring>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1">
+            <widget class="QDoubleSpinBox" name="doubleSpinBox">
+             <property name="minimum">
+              <double>-9999999.000000000000000</double>
+             </property>
+             <property name="maximum">
+              <double>999999999.000000000000000</double>
+             </property>
+             <property name="singleStep">
+              <double>0.100000000000000</double>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item row="0" column="1" rowspan="2">
+         <widget class="QGroupBox" name="groupBox_5">
+          <property name="title">
+           <string> 当前状态信息</string>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_4">
+           <item row="0" column="0">
+            <widget class="QGroupBox" name="groupBox_2">
+             <property name="title">
+              <string> 当前关节角度</string>
+             </property>
+             <layout class="QGridLayout" name="gridLayout_2">
+              <item row="0" column="0">
+               <widget class="QLabel" name="label_21">
+                <property name="text">
+                 <string>底座</string>
+                </property>
+                <property name="buddy">
+                 <cstring>doubleSpinBox_2</cstring>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="1">
+               <widget class="QDoubleSpinBox" name="doubleSpinBox_2">
+                <property name="enabled">
+                 <bool>false</bool>
+                </property>
+                <property name="minimum">
+                 <double>-999999.000000000000000</double>
+                </property>
+                <property name="maximum">
+                 <double>9999999999.000000000000000</double>
+                </property>
+                <property name="singleStep">
+                 <double>0.100000000000000</double>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="0">
+               <widget class="QLabel" name="label_22">
+                <property name="text">
+                 <string>大臂</string>
+                </property>
+                <property name="buddy">
+                 <cstring>doubleSpinBox_3</cstring>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="1">
+               <widget class="QDoubleSpinBox" name="doubleSpinBox_3">
+                <property name="enabled">
+                 <bool>false</bool>
+                </property>
+                <property name="minimum">
+                 <double>-999999.000000000000000</double>
+                </property>
+                <property name="maximum">
+                 <double>999999.000000000000000</double>
+                </property>
+                <property name="singleStep">
+                 <double>0.100000000000000</double>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="0">
+               <widget class="QLabel" name="label_23">
+                <property name="text">
+                 <string>二臂</string>
+                </property>
+                <property name="buddy">
+                 <cstring>doubleSpinBox_4</cstring>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="1">
+               <widget class="QDoubleSpinBox" name="doubleSpinBox_4">
+                <property name="enabled">
+                 <bool>false</bool>
+                </property>
+                <property name="minimum">
+                 <double>-999999.000000000000000</double>
+                </property>
+                <property name="maximum">
+                 <double>9999999.000000000000000</double>
+                </property>
+                <property name="singleStep">
+                 <double>0.100000000000000</double>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="0">
+               <widget class="QLabel" name="label_24">
+                <property name="text">
+                 <string>摇杆</string>
+                </property>
+                <property name="buddy">
+                 <cstring>doubleSpinBox_5</cstring>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="1">
+               <widget class="QDoubleSpinBox" name="doubleSpinBox_5">
+                <property name="enabled">
+                 <bool>false</bool>
+                </property>
+                <property name="minimum">
+                 <double>-999999.000000000000000</double>
+                </property>
+                <property name="maximum">
+                 <double>9999999.000000000000000</double>
+                </property>
+                <property name="singleStep">
+                 <double>0.100000000000000</double>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="0">
+               <widget class="QLabel" name="label_25">
+                <property name="text">
+                 <string>侧摆</string>
+                </property>
+                <property name="buddy">
+                 <cstring>doubleSpinBox_6</cstring>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="1">
+               <widget class="QDoubleSpinBox" name="doubleSpinBox_6">
+                <property name="enabled">
+                 <bool>false</bool>
+                </property>
+                <property name="minimum">
+                 <double>-9999999.000000000000000</double>
+                </property>
+                <property name="maximum">
+                 <double>99999999.000000000000000</double>
+                </property>
+                <property name="singleStep">
+                 <double>0.100000000000000</double>
+                </property>
+               </widget>
+              </item>
+              <item row="5" column="0">
+               <widget class="QLabel" name="label_26">
+                <property name="text">
+                 <string>回转</string>
+                </property>
+                <property name="buddy">
+                 <cstring>doubleSpinBox_7</cstring>
+                </property>
+               </widget>
+              </item>
+              <item row="5" column="1">
+               <widget class="QDoubleSpinBox" name="doubleSpinBox_7">
+                <property name="enabled">
+                 <bool>false</bool>
+                </property>
+                <property name="minimum">
+                 <double>-9999999.000000000000000</double>
+                </property>
+                <property name="maximum">
+                 <double>9999999.000000000000000</double>
+                </property>
+                <property name="singleStep">
+                 <double>0.100000000000000</double>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QGroupBox" name="groupBox_3">
+             <property name="title">
+              <string> 当前位姿</string>
+             </property>
+             <layout class="QGridLayout" name="gridLayout_3">
+              <item row="0" column="0">
+               <widget class="QDoubleSpinBox" name="doubleSpinBox_8">
+                <property name="enabled">
+                 <bool>false</bool>
+                </property>
+                <property name="prefix">
+                 <string>x:</string>
+                </property>
+                <property name="minimum">
+                 <double>-9999999.000000000000000</double>
+                </property>
+                <property name="maximum">
+                 <double>999999.000000000000000</double>
+                </property>
+                <property name="singleStep">
+                 <double>0.100000000000000</double>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="1">
+               <widget class="QDoubleSpinBox" name="doubleSpinBox_11">
+                <property name="enabled">
+                 <bool>false</bool>
+                </property>
+                <property name="prefix">
+                 <string>rx:</string>
+                </property>
+                <property name="minimum">
+                 <double>-999999.000000000000000</double>
+                </property>
+                <property name="maximum">
+                 <double>999999.000000000000000</double>
+                </property>
+                <property name="singleStep">
+                 <double>0.100000000000000</double>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="0">
+               <widget class="QDoubleSpinBox" name="doubleSpinBox_9">
+                <property name="enabled">
+                 <bool>false</bool>
+                </property>
+                <property name="prefix">
+                 <string>y:</string>
+                </property>
+                <property name="minimum">
+                 <double>-999999.000000000000000</double>
+                </property>
+                <property name="maximum">
+                 <double>99999999.000000000000000</double>
+                </property>
+                <property name="singleStep">
+                 <double>0.100000000000000</double>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="1">
+               <widget class="QDoubleSpinBox" name="doubleSpinBox_12">
+                <property name="enabled">
+                 <bool>false</bool>
+                </property>
+                <property name="prefix">
+                 <string>ry:</string>
+                </property>
+                <property name="minimum">
+                 <double>-999999.000000000000000</double>
+                </property>
+                <property name="maximum">
+                 <double>9999999.000000000000000</double>
+                </property>
+                <property name="singleStep">
+                 <double>0.100000000000000</double>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="0">
+               <widget class="QDoubleSpinBox" name="doubleSpinBox_10">
+                <property name="enabled">
+                 <bool>false</bool>
+                </property>
+                <property name="prefix">
+                 <string>z:</string>
+                </property>
+                <property name="minimum">
+                 <double>-999999.000000000000000</double>
+                </property>
+                <property name="maximum">
+                 <double>999999.000000000000000</double>
+                </property>
+                <property name="singleStep">
+                 <double>0.100000000000000</double>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="1">
+               <widget class="QDoubleSpinBox" name="doubleSpinBox_13">
+                <property name="enabled">
+                 <bool>false</bool>
+                </property>
+                <property name="prefix">
+                 <string>rz:</string>
+                </property>
+                <property name="minimum">
+                 <double>-99999.000000000000000</double>
+                </property>
+                <property name="maximum">
+                 <double>999999.000000000000000</double>
+                </property>
+                <property name="singleStep">
+                 <double>0.100000000000000</double>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item row="1" column="1">
+            <widget class="QPushButton" name="pushButton_2">
+             <property name="text">
+              <string>读取当前状态信息</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QGroupBox" name="groupBox_4">
+          <property name="title">
+           <string> 关节联动测试</string>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_5">
+           <item row="0" column="0">
+            <widget class="QDoubleSpinBox" name="doubleSpinBox_14">
+             <property name="prefix">
+              <string>X:</string>
+             </property>
+             <property name="minimum">
+              <double>-9999.000000000000000</double>
+             </property>
+             <property name="maximum">
+              <double>99999.000000000000000</double>
+             </property>
+             <property name="singleStep">
+              <double>0.010000000000000</double>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QDoubleSpinBox" name="doubleSpinBox_15">
+             <property name="prefix">
+              <string>Y:</string>
+             </property>
+             <property name="minimum">
+              <double>-9999999.000000000000000</double>
+             </property>
+             <property name="maximum">
+              <double>99999999.000000000000000</double>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="3">
+            <widget class="QDoubleSpinBox" name="doubleSpinBox_16">
+             <property name="prefix">
+              <string>Z:</string>
+             </property>
+             <property name="minimum">
+              <double>-999999.000000000000000</double>
+             </property>
+             <property name="maximum">
+              <double>9999999.000000000000000</double>
+             </property>
+             <property name="singleStep">
+              <double>0.010000000000000</double>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QDoubleSpinBox" name="doubleSpinBox_17">
+             <property name="prefix">
+              <string>Rx:</string>
+             </property>
+             <property name="minimum">
+              <double>-99999.000000000000000</double>
+             </property>
+             <property name="maximum">
+              <double>999999.000000000000000</double>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1">
+            <widget class="QDoubleSpinBox" name="doubleSpinBox_18">
+             <property name="prefix">
+              <string>Ry:</string>
+             </property>
+             <property name="minimum">
+              <double>-9999999.000000000000000</double>
+             </property>
+             <property name="maximum">
+              <double>99999.000000000000000</double>
+             </property>
+             <property name="singleStep">
+              <double>0.010000000000000</double>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="3">
+            <widget class="QDoubleSpinBox" name="doubleSpinBox_19">
+             <property name="prefix">
+              <string>Rz:</string>
+             </property>
+             <property name="minimum">
+              <double>-99999.000000000000000</double>
+             </property>
+             <property name="maximum">
+              <double>99999.000000000000000</double>
+             </property>
+             <property name="singleStep">
+              <double>0.001000000000000</double>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="0">
+            <widget class="QDoubleSpinBox" name="doubleSpinBox_20">
+             <property name="enabled">
+              <bool>false</bool>
+             </property>
+             <property name="prefix">
+              <string>底座</string>
+             </property>
+             <property name="minimum">
+              <double>-9999.000000000000000</double>
+             </property>
+             <property name="maximum">
+              <double>999999.000000000000000</double>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1" colspan="2">
+            <widget class="QDoubleSpinBox" name="doubleSpinBox_21">
+             <property name="enabled">
+              <bool>false</bool>
+             </property>
+             <property name="prefix">
+              <string>大臂</string>
+             </property>
+             <property name="minimum">
+              <double>-99999.000000000000000</double>
+             </property>
+             <property name="maximum">
+              <double>999999.000000000000000</double>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="3">
+            <widget class="QDoubleSpinBox" name="doubleSpinBox_22">
+             <property name="enabled">
+              <bool>false</bool>
+             </property>
+             <property name="prefix">
+              <string>二臂</string>
+             </property>
+             <property name="minimum">
+              <double>-9999.000000000000000</double>
+             </property>
+             <property name="maximum">
+              <double>999999.000000000000000</double>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="0">
+            <widget class="QDoubleSpinBox" name="doubleSpinBox_23">
+             <property name="enabled">
+              <bool>false</bool>
+             </property>
+             <property name="prefix">
+              <string>摇杆</string>
+             </property>
+             <property name="minimum">
+              <double>-99999.000000000000000</double>
+             </property>
+             <property name="maximum">
+              <double>99999.000000000000000</double>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="1" colspan="2">
+            <widget class="QDoubleSpinBox" name="doubleSpinBox_24">
+             <property name="enabled">
+              <bool>false</bool>
+             </property>
+             <property name="prefix">
+              <string>侧摆</string>
+             </property>
+             <property name="minimum">
+              <double>-999999.000000000000000</double>
+             </property>
+             <property name="maximum">
+              <double>9999999.000000000000000</double>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="3">
+            <widget class="QDoubleSpinBox" name="doubleSpinBox_25">
+             <property name="enabled">
+              <bool>false</bool>
+             </property>
+             <property name="prefix">
+              <string>回转</string>
+             </property>
+             <property name="minimum">
+              <double>-999999.000000000000000</double>
+             </property>
+             <property name="maximum">
+              <double>999999.000000000000000</double>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="0" colspan="2">
+            <widget class="QPushButton" name="pushButton_4">
+             <property name="text">
+              <string> 转化为关节量</string>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="2" colspan="2">
+            <widget class="QPushButton" name="pushButton_3">
+             <property name="text">
+              <string>开始联动</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>850</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
